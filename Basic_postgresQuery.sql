@@ -58,4 +58,8 @@ LEFT JOIN products ON categories.category_id = products.category_id;
 SELECT categories.category_id, categories.category_name, categories.description
 FROM categories
 RIGHT JOIN products ON categories.category_id = products.category_id;
-
+SELECT categories.category_id, categories.category_name, categories.description
+FROM categories
+FULL JOIN products ON categories.category_id = products.category_id;
+ALTER Table products drop column price ;
+DELETE from products ;
