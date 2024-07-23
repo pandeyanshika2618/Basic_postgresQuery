@@ -43,7 +43,7 @@ VALUES
   ('Jaipur Blue Pottery Vase', 4, '1 vase', 30),
    ('Gujrat diamond', 6, '10 diamnds' ,100);
 
-Insert INTO products ()
+
 SELECT * from categories where category_name Like 'C%';
 SELECT * from categories where category_name ILike 'c%';
 SELECT * from categories where category_name Like '_o%';
