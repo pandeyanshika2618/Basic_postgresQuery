@@ -43,7 +43,7 @@ VALUES
   ('Jaipur Blue Pottery Vase', 4, '1 vase', 30),
    ('Gujrat diamond', 6, '10 diamnds' ,100);
 
-
+Insert INTO products ()
 SELECT * from categories where category_name Like 'C%';
 SELECT * from categories where category_name ILike 'c%';
 SELECT * from categories where category_name Like '_o%';
@@ -58,8 +58,4 @@ LEFT JOIN products ON categories.category_id = products.category_id;
 SELECT categories.category_id, categories.category_name, categories.description
 FROM categories
 RIGHT JOIN products ON categories.category_id = products.category_id;
-SELECT categories.category_id, categories.category_name, categories.description
-FROM categories
-FULL JOIN products ON categories.category_id = products.category_id;
-ALTER Table products drop column price ;
-DELETE from products ;
+
