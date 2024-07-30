@@ -1,1 +1,1 @@
-In PostgreSQL, we created three tables: `categories`, `customers`, and `products`, populated them with sample data, and performed various SQL operations. These included querying categories starting with 'C', retrieving unique cities from customers, counting customers in India, and demonstrating both `LEFT JOIN` and `RIGHT JOIN` to link categories with products based on their `category_id`. These operations showcase PostgreSQL's capabilities in data management and querying within a relational database environment.
+
